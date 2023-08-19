@@ -6,9 +6,9 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thank you for reporting a typo for Sci-Hook systems. People like you help us a lot to keep Sci-Hook systems optimized and usable.
+              Thank you very much for wanting to contribute to the development of the Scicon Icon Pack. This icon request template is for the brand category only. Please pay attention to this before you start. If you want to request another icon category, change the template.
 
-              There are many ways to volunteer for Sci-Hook. One of them is to report typos. If you want to volunteer for Sci-Hook, you can visit the [Sci-Hook Volunteering Center](https://volunteering.scihook.org).
+              You should update the title in accordance with the brand or product name and fill out the forms below accordingly.
     - type: dropdown
       id: type
       attributes:
@@ -77,9 +77,9 @@ body:
       attributes:
           label: Confirm Before Submitting
           options:
-              - label: The title starts with "Brand Icon Request:" and continues with the brand (or product). For example, "Brand Icon Request: Sci-Hook".
+              - label: 'The title starts with "Brand Icon Request:" and continues with the brand (or product). For example, "Brand Icon Request: Sci-Hook".'
                 required: true
-              - label: I am sure this is a brand or product icon request.
+              - label: 'I am sure this is a brand or product icon request.'
                 required: true
-              - label: I searched through the previous icon [requests](https://github.com/Sci-Hook/scicon/issues?q=label%3A%22Icon+Request%3A+Brand%22+) and I am sure that this icon has not been requested before.
+              - label: 'I searched through the previous icon [requests](https://github.com/Sci-Hook/scicon/issues?q=label%3A%22Icon+Request%3A+Brand%22+) and I am sure that this icon has not been requested before.'
                 required: true
