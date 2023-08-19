@@ -65,6 +65,14 @@ body:
           placeholder: For example, https://scihook.org
       validations:
           required: true
+    - type: input
+      id: branding
+      attributes:
+          label: Branding Guidelines
+          description: Provide the branding guideline of the brand or product. If not, you can leave it blank. However, if there is, please add it.
+          placeholder: For example, https://about.scihook.org/branding
+      validations:
+          required: false
     - type: textarea
       id: describe
       attributes:
