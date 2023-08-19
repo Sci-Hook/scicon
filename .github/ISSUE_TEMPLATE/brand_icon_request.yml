@@ -43,6 +43,7 @@ body:
               - Marketing and Advertising
               - Communication
               - Entertainment
+              - Food and Grocery
               - Government Product
       validations:
           required: true
