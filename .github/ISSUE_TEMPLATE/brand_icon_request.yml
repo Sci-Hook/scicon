@@ -28,6 +28,7 @@ body:
       attributes:
           label: Brand Category
           description: Select the category of the brand (or product). You can make multiple selections.
+          placeholder: Choose category
           multiple: true
           options:
               - Academy and Science
@@ -51,6 +52,7 @@ body:
       attributes:
           label: Brand Audience
           description: Select the target audience of the brand (or product).
+          placeholder: Choose brand audience
           multiple: false
           options:
               - Global
