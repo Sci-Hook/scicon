@@ -1,0 +1,85 @@
+name: Brand icon request
+description: You can request an icon for the brand category of the Scicon Icon Pack.
+title: "Brand Icon Request: {Brand Name}"
+labels: ["Icon Request: Brand", "Icon Status: Review Required"]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thank you for reporting a typo for Sci-Hook systems. People like you help us a lot to keep Sci-Hook systems optimized and usable.
+
+              There are many ways to volunteer for Sci-Hook. One of them is to report typos. If you want to volunteer for Sci-Hook, you can visit the [Sci-Hook Volunteering Center](https://volunteering.scihook.org).
+    - type: dropdown
+      id: type
+      attributes:
+          label: Brand Type
+          description: Select the type of the brand (or product).
+          multiple: false
+          options:
+              - Commercial Brand
+              - Non-Profit Organization
+              - Foundation or Association
+              - Software Language
+              - Other
+      validations:
+          required: true
+    - type: dropdown
+      id: category
+      attributes:
+          label: Brand Category
+          description: Select the category of the brand (or product). You can make multiple selections.
+          multiple: true
+          options:
+              - Academy and Science
+              - Science Communication
+              - Education
+              - Design
+              - Software and Technology
+              - Electronics
+              - Automotive
+              - Transportation and Travel
+              - Financial Services
+              - Health Services
+              - Marketing and Advertising
+              - Communication
+              - Entertainment
+              - Government Product
+      validations:
+          required: true
+      - type: dropdown
+      id: audience
+      attributes:
+          label: Brand Audience
+          description: Select the target audience of the brand (or product).
+          multiple: false
+          options:
+              - Global
+              - Local
+      validations:
+          required: true
+    - type: input
+      id: website
+      attributes:
+          label: Official Website
+          description: Provide the official site of the brand (or product). The site must be open to the public and active. If the product does not have an official site, you can add another official link to the product.
+          placeholder: For example, https://scihook.org
+      validations:
+          required: true
+    - type: textarea
+      id: describe
+      attributes:
+          label: Explain Why You Want the Icon to Be Added
+          description: Explain why it is important to include this brand (or product) icon in the Scicon Icon Pack.
+      validations:
+          required: false
+    - type: checkboxes
+      id: legal
+      attributes:
+          label: Confirm Before Submitting
+          options:
+              - label: The title starts with "Brand Icon Request:" and continues with the brand (or product). For example, "Brand Icon Request: Sci-Hook".
+                required: true
+              - label: I am sure this is a brand or product icon request.
+                required: true
+              - label: I searched through the previous icon [requests](https://github.com/Sci-Hook/scicon/issues?q=label%3A%22Icon+Request%3A+Brand%22+) and I am sure that this icon has not been requested before.
+                required: true
