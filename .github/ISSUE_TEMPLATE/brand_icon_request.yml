@@ -46,7 +46,7 @@ body:
               - Government Product
       validations:
           required: true
-      - type: dropdown
+    - type: dropdown
       id: audience
       attributes:
           label: Brand Audience
