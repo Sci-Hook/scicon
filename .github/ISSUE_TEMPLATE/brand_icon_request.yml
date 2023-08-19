@@ -33,20 +33,25 @@ body:
               - Academy and Science
               - Science Communication
               - Education
+              - Space and Aviation
               - Design
+              - Music
               - Software and Technology
+              - Data Security
               - Electronics
               - Automotive
               - Transportation and Travel
               - Financial Services
               - Health Services
+              - Agriculture
               - Marketing and Advertising
               - Communication
               - Entertainment
+              - Game
               - Food and Grocery
               - Government Product
       validations:
-          required: true
+          required: false
     - type: dropdown
       id: audience
       attributes:
