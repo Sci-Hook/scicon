@@ -1,6 +1,6 @@
 Bu bilgilendirme yazısı, paket hakkında özet bilgi vermeyi hedeflemektedir. Dolayısıyla oldukça kısa ve detaysız bir şekilde yazılmıştır. Ancak bu bilgilendirme yazısını okuyan bir geliştirici paketi rahatlıkla kullanmaya başlayabilecektir. Lütfen daha detaylı bilgilendirme için resmî Scicon dokümanlarını [ziyaret ediniz](https://github.com/Sci-Hook/scicon/wiki).
 
-# Genel Bilgilendirme ![Paketteki İkon Sayısı](https://img.shields.io/badge/Paketteki%20%C4%B0kon%20Say%C4%B1s%C4%B1-225-blue?style=flat)
+# Genel Bilgilendirme ![Paketteki İkon Sayısı](https://img.shields.io/badge/Paketteki%20%C4%B0kon%20Say%C4%B1s%C4%B1-223-blue?style=flat)
 
 Projelerinizi tasarımsal ve görsel açıdan daha iyi hale getirmek için ikonlar oldukça iyi bir seçimdir. Scicon İkon Paketi, çalışmalarınızda özgürce kullanabileceğiniz bir ikon paketidir. Dilerseniz doğrudan bu paketi kurarak bütün Scicon ikonlarını projenize dahil edebilir, dilerseniz de Scicon İkon Paketi'nin diğer kategorilerini ayrı ayrı kurup istediğiniz ikon kategorisindeki ikonları projenize dahil edebilirsiniz.
 
@@ -38,7 +38,7 @@ Scicon Paketi için daha detaylı dokümantasyon mevcuttur. Kurulum hakkında de
 
 [Scicon Github Issues Sayfası](https://github.com/Sci-Hook/scicon/issues)
 
-# Sürümlendirme ![Stabil Sürüm](https://img.shields.io/badge/Stabil%20S%C3%BCr%C3%BCm-1.113.1-orange?style=flat) ![Son Sürüm](https://img.shields.io/badge/Son%20S%C3%BCr%C3%BCm-1.113.1-orange?style=flat)
+# Sürümlendirme ![Stabil Sürüm](https://img.shields.io/badge/Stabil%20S%C3%BCr%C3%BCm-1.0.1-alpha.1-orange?style=flat) ![Son Sürüm](https://img.shields.io/badge/Son%20S%C3%BCr%C3%BCm-1.0.1-alpha.1-orange?style=flat)
 
 Scicon İkon Paketi'ni sürümlendirirken Semantic Sürümlendirmesi ile kendi sürümlendirme sistemimizi birleştirip kullanıyoruz. İkonları şu şekilde sürümlendiriyoruz:
 

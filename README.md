@@ -1,6 +1,6 @@
 This informative text aims to provide brief information about the package. Therefore, it is written in a very short and detailed way. However, a developer who reads this information will be able to start using the package easily. Please [visit](https://github.com/Sci-Hook/scicon/wiki) the official Scicon documentation for more detailed information.
 
-# General Information ![Number of Icons in the Pack](https://img.shields.io/badge/Number%20of%20Icons%20in%20the%20Pack-225-blue?style=flat)
+# General Information ![Number of Icons in the Pack](https://img.shields.io/badge/Number%20of%20Icons%20in%20the%20Pack-223-blue?style=flat)
 
 Icons are a good choice to make your projects better from a design and visual point of view. Scicon Icon Pack is an icon pack that you can freely use in your work. If you wish, you can include all Scicon icons in your project by installing this package directly, or you can install the other categories of the Scicon Icon Package separately and include the icons in the icon category you want in your project.
 
@@ -38,7 +38,7 @@ More detailed documentation is available for the Scicon Pack. Please check the G
 
 [Scicon Github Issues Page](https://github.com/Sci-Hook/scicon/issues)
 
-# Versioning ![Stable Version](https://img.shields.io/badge/Stable%20Version-1.113.1-orange?style=flat) ![Latest Version](https://img.shields.io/badge/Latest%20Version-1.113.1-orange?style=flat)
+# Versioning ![Stable Version](https://img.shields.io/badge/Stable%20Version-1.0.1-alpha.1-orange?style=flat) ![Latest Version](https://img.shields.io/badge/Latest%20Version-1.0.1-alpha.1-orange?style=flat)
 
 When versioning the Scicon Icon Pack, we combine Semantic Versioning with our own versioning system. Here's how we version the icons:
 
