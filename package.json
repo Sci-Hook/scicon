@@ -1,0 +1,19 @@
+{
+  "name": "scicon",
+  "version": "1.0.0-alpha.1",
+  "description": "CSS Icon Pack by the Sci-Hook Organization",
+  "keywords": [
+    "scihook",
+    "scicon",
+    "scicon-brands",
+    "icon-pack",
+    "web",
+    "font",
+    "css-icons"
+  ],
+  "author": "Çınar Civan",
+  "license": "MIT",
+  "publisher": "Sci-Hook Organization",
+  "homepage": "https://scicon.scihook.org",
+  "repository": {"url": "https://github.com/Sci-Hook/scicon-brands"}
+}
