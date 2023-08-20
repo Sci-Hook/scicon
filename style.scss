@@ -1,0 +1,1145 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7nfww4');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7nfww4#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7nfww4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7nfww4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7nfww4##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.scicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.scicon-amazon {
+  &:before {
+    content: $scicon-amazon; 
+  }
+}
+.scicon-amazon-a {
+  &:before {
+    content: $scicon-amazon-a; 
+  }
+}
+.scicon-apache {
+  &:before {
+    content: $scicon-apache; 
+  }
+}
+.scicon-apache-wordmark {
+  &:before {
+    content: $scicon-apache-wordmark; 
+  }
+}
+.scicon-apple-inc {
+  &:before {
+    content: $scicon-apple-inc; 
+  }
+}
+.scicon-appstore {
+  &:before {
+    content: $scicon-appstore; 
+  }
+}
+.scicon-arduino {
+  &:before {
+    content: $scicon-arduino; 
+  }
+}
+.scicon-arduino-wordmark {
+  &:before {
+    content: $scicon-arduino-wordmark; 
+  }
+}
+.scicon-bing {
+  &:before {
+    content: $scicon-bing; 
+  }
+}
+.scicon-bootstrap {
+  &:before {
+    content: $scicon-bootstrap; 
+  }
+}
+.scicon-brave {
+  &:before {
+    content: $scicon-brave; 
+  }
+}
+.scicon-brave-text {
+  &:before {
+    content: $scicon-brave-text; 
+  }
+}
+.scicon-brave-wordmark {
+  &:before {
+    content: $scicon-brave-wordmark; 
+  }
+}
+.scicon-chrome {
+  &:before {
+    content: $scicon-chrome; 
+  }
+}
+.scicon-c-lang {
+  &:before {
+    content: $scicon-c-lang; 
+  }
+}
+.scicon-c-lang-alt {
+  &:before {
+    content: $scicon-c-lang-alt; 
+  }
+}
+.scicon-cloudflare {
+  &:before {
+    content: $scicon-cloudflare; 
+  }
+}
+.scicon-cloudflare-wordmark {
+  &:before {
+    content: $scicon-cloudflare-wordmark; 
+  }
+}
+.scicon-codepen {
+  &:before {
+    content: $scicon-codepen; 
+  }
+}
+.scicon-cpanel {
+  &:before {
+    content: $scicon-cpanel; 
+  }
+}
+.scicon-cpp-lang {
+  &:before {
+    content: $scicon-cpp-lang; 
+  }
+}
+.scicon-creative-cloud {
+  &:before {
+    content: $scicon-creative-cloud; 
+  }
+}
+.scicon-c-sharp {
+  &:before {
+    content: $scicon-c-sharp; 
+  }
+}
+.scicon-css {
+  &:before {
+    content: $scicon-css; 
+  }
+}
+.scicon-css-wordmark {
+  &:before {
+    content: $scicon-css-wordmark; 
+  }
+}
+.scicon-discord {
+  &:before {
+    content: $scicon-discord; 
+  }
+}
+.scicon-discord-text {
+  &:before {
+    content: $scicon-discord-text; 
+  }
+}
+.scicon-discord-wordmark {
+  &:before {
+    content: $scicon-discord-wordmark; 
+  }
+}
+.scicon-docker {
+  &:before {
+    content: $scicon-docker; 
+  }
+}
+.scicon-docker-wordmark {
+  &:before {
+    content: $scicon-docker-wordmark; 
+  }
+}
+.scicon-dreamweaver {
+  &:before {
+    content: $scicon-dreamweaver; 
+  }
+}
+.scicon-dribbble {
+  &:before {
+    content: $scicon-dribbble; 
+  }
+}
+.scicon-edge {
+  &:before {
+    content: $scicon-edge; 
+  }
+}
+.scicon-edge-alt {
+  &:before {
+    content: $scicon-edge-alt; 
+  }
+}
+.scicon-edge-old {
+  &:before {
+    content: $scicon-edge-old; 
+  }
+}
+.scicon-esa {
+  &:before {
+    content: $scicon-esa; 
+  }
+}
+.scicon-esa-text {
+  &:before {
+    content: $scicon-esa-text; 
+  }
+}
+.scicon-esa-wordmark {
+  &:before {
+    content: $scicon-esa-wordmark; 
+  }
+}
+.scicon-facebook {
+  &:before {
+    content: $scicon-facebook; 
+  }
+}
+.scicon-facebook-f {
+  &:before {
+    content: $scicon-facebook-f; 
+  }
+}
+.scicon-firefox {
+  &:before {
+    content: $scicon-firefox; 
+  }
+}
+.scicon-flickr {
+  &:before {
+    content: $scicon-flickr; 
+  }
+}
+.scicon-flickr-wordmark {
+  &:before {
+    content: $scicon-flickr-wordmark; 
+  }
+}
+.scicon-fortran {
+  &:before {
+    content: $scicon-fortran; 
+  }
+}
+.scicon-f-sharp {
+  &:before {
+    content: $scicon-f-sharp; 
+  }
+}
+.scicon-github {
+  &:before {
+    content: $scicon-github; 
+  }
+}
+.scicon-github-text {
+  &:before {
+    content: $scicon-github-text; 
+  }
+}
+.scicon-gitlab {
+  &:before {
+    content: $scicon-gitlab; 
+  }
+}
+.scicon-gitlab-text {
+  &:before {
+    content: $scicon-gitlab-text; 
+  }
+}
+.scicon-gitlab-wordmark {
+  &:before {
+    content: $scicon-gitlab-wordmark; 
+  }
+}
+.scicon-gmail {
+  &:before {
+    content: $scicon-gmail; 
+  }
+}
+.scicon-go-gopher {
+  &:before {
+    content: $scicon-go-gopher; 
+  }
+}
+.scicon-go-lang {
+  &:before {
+    content: $scicon-go-lang; 
+  }
+}
+.scicon-google {
+  &:before {
+    content: $scicon-google; 
+  }
+}
+.scicon-google-text {
+  &:before {
+    content: $scicon-google-text; 
+  }
+}
+.scicon-guilded {
+  &:before {
+    content: $scicon-guilded; 
+  }
+}
+.scicon-guilded-wordmark {
+  &:before {
+    content: $scicon-guilded-wordmark; 
+  }
+}
+.scicon-html5 {
+  &:before {
+    content: $scicon-html5; 
+  }
+}
+.scicon-html5-wordmark {
+  &:before {
+    content: $scicon-html5-wordmark; 
+  }
+}
+.scicon-ibm {
+  &:before {
+    content: $scicon-ibm; 
+  }
+}
+.scicon-illustrator {
+  &:before {
+    content: $scicon-illustrator; 
+  }
+}
+.scicon-incopy {
+  &:before {
+    content: $scicon-incopy; 
+  }
+}
+.scicon-indesign {
+  &:before {
+    content: $scicon-indesign; 
+  }
+}
+.scicon-instagram {
+  &:before {
+    content: $scicon-instagram; 
+  }
+}
+.scicon-instagram-alt {
+  &:before {
+    content: $scicon-instagram-alt; 
+  }
+}
+.scicon-java {
+  &:before {
+    content: $scicon-java; 
+  }
+}
+.scicon-javascript {
+  &:before {
+    content: $scicon-javascript; 
+  }
+}
+.scicon-javascript-text {
+  &:before {
+    content: $scicon-javascript-text; 
+  }
+}
+.scicon-java-wordmark {
+  &:before {
+    content: $scicon-java-wordmark; 
+  }
+}
+.scicon-jquery {
+  &:before {
+    content: $scicon-jquery; 
+  }
+}
+.scicon-jquery-slogan {
+  &:before {
+    content: $scicon-jquery-slogan; 
+  }
+}
+.scicon-jquery-wordmark {
+  &:before {
+    content: $scicon-jquery-wordmark; 
+  }
+}
+.scicon-jsdelivr {
+  &:before {
+    content: $scicon-jsdelivr; 
+  }
+}
+.scicon-jsdelivr-text {
+  &:before {
+    content: $scicon-jsdelivr-text; 
+  }
+}
+.scicon-jsdelivr-wordmark {
+  &:before {
+    content: $scicon-jsdelivr-wordmark; 
+  }
+}
+.scicon-khan-academy {
+  &:before {
+    content: $scicon-khan-academy; 
+  }
+}
+.scicon-khan-academy-alt {
+  &:before {
+    content: $scicon-khan-academy-alt; 
+  }
+}
+.scicon-khan-academy-text {
+  &:before {
+    content: $scicon-khan-academy-text; 
+  }
+}
+.scicon-khan-academy-wordmark {
+  &:before {
+    content: $scicon-khan-academy-wordmark; 
+  }
+}
+.scicon-kickstarter {
+  &:before {
+    content: $scicon-kickstarter; 
+  }
+}
+.scicon-kickstarter-wordmark {
+  &:before {
+    content: $scicon-kickstarter-wordmark; 
+  }
+}
+.scicon-lightroom {
+  &:before {
+    content: $scicon-lightroom; 
+  }
+}
+.scicon-lightroom-classic {
+  &:before {
+    content: $scicon-lightroom-classic; 
+  }
+}
+.scicon-linkedin {
+  &:before {
+    content: $scicon-linkedin; 
+  }
+}
+.scicon-linkedin-wordmark {
+  &:before {
+    content: $scicon-linkedin-wordmark; 
+  }
+}
+.scicon-markdown {
+  &:before {
+    content: $scicon-markdown; 
+  }
+}
+.scicon-markdown-alt {
+  &:before {
+    content: $scicon-markdown-alt; 
+  }
+}
+.scicon-mastodon {
+  &:before {
+    content: $scicon-mastodon; 
+  }
+}
+.scicon-matlab {
+  &:before {
+    content: $scicon-matlab; 
+  }
+}
+.scicon-maxcdn {
+  &:before {
+    content: $scicon-maxcdn; 
+  }
+}
+.scicon-medium {
+  &:before {
+    content: $scicon-medium; 
+  }
+}
+.scicon-medium-text {
+  &:before {
+    content: $scicon-medium-text; 
+  }
+}
+.scicon-medium-wordmark {
+  &:before {
+    content: $scicon-medium-wordmark; 
+  }
+}
+.scicon-mercedes {
+  &:before {
+    content: $scicon-mercedes; 
+  }
+}
+.scicon-messenger {
+  &:before {
+    content: $scicon-messenger; 
+  }
+}
+.scicon-messenger-alt {
+  &:before {
+    content: $scicon-messenger-alt; 
+  }
+}
+.scicon-meta {
+  &:before {
+    content: $scicon-meta; 
+  }
+}
+.scicon-meta-wordmark {
+  &:before {
+    content: $scicon-meta-wordmark; 
+  }
+}
+.scicon-microsoft {
+  &:before {
+    content: $scicon-microsoft; 
+  }
+}
+.scicon-microsoft-text {
+  &:before {
+    content: $scicon-microsoft-text; 
+  }
+}
+.scicon-microsoft-wordmark {
+  &:before {
+    content: $scicon-microsoft-wordmark; 
+  }
+}
+.scicon-mongodb-leaf {
+  &:before {
+    content: $scicon-mongodb-leaf; 
+  }
+}
+.scicon-mongodb-wordmark {
+  &:before {
+    content: $scicon-mongodb-wordmark; 
+  }
+}
+.scicon-mozilla {
+  &:before {
+    content: $scicon-mozilla; 
+  }
+}
+.scicon-mysql {
+  &:before {
+    content: $scicon-mysql; 
+  }
+}
+.scicon-mysql-mark {
+  &:before {
+    content: $scicon-mysql-mark; 
+  }
+}
+.scicon-mysql-text {
+  &:before {
+    content: $scicon-mysql-text; 
+  }
+}
+.scicon-nasa {
+  &:before {
+    content: $scicon-nasa; 
+  }
+}
+.scicon-nasa-worm {
+  &:before {
+    content: $scicon-nasa-worm; 
+  }
+}
+.scicon-nature {
+  &:before {
+    content: $scicon-nature; 
+  }
+}
+.scicon-nature-text {
+  &:before {
+    content: $scicon-nature-text; 
+  }
+}
+.scicon-nodejs {
+  &:before {
+    content: $scicon-nodejs; 
+  }
+}
+.scicon-nodejs-js {
+  &:before {
+    content: $scicon-nodejs-js; 
+  }
+}
+.scicon-nodejs-wordmark {
+  &:before {
+    content: $scicon-nodejs-wordmark; 
+  }
+}
+.scicon-npm {
+  &:before {
+    content: $scicon-npm; 
+  }
+}
+.scicon-npm-alt {
+  &:before {
+    content: $scicon-npm-alt; 
+  }
+}
+.scicon-npm-text {
+  &:before {
+    content: $scicon-npm-text; 
+  }
+}
+.scicon-nsf {
+  &:before {
+    content: $scicon-nsf; 
+  }
+}
+.scicon-openai {
+  &:before {
+    content: $scicon-openai; 
+  }
+}
+.scicon-openai-text {
+  &:before {
+    content: $scicon-openai-text; 
+  }
+}
+.scicon-openai-wordmark {
+  &:before {
+    content: $scicon-openai-wordmark; 
+  }
+}
+.scicon-orcid {
+  &:before {
+    content: $scicon-orcid; 
+  }
+}
+.scicon-patreon {
+  &:before {
+    content: $scicon-patreon; 
+  }
+}
+.scicon-patreon-text {
+  &:before {
+    content: $scicon-patreon-text; 
+  }
+}
+.scicon-perl {
+  &:before {
+    content: $scicon-perl; 
+  }
+}
+.scicon-perl-camel {
+  &:before {
+    content: $scicon-perl-camel; 
+  }
+}
+.scicon-photoshop {
+  &:before {
+    content: $scicon-photoshop; 
+  }
+}
+.scicon-php {
+  &:before {
+    content: $scicon-php; 
+  }
+}
+.scicon-php-text {
+  &:before {
+    content: $scicon-php-text; 
+  }
+}
+.scicon-pinterest {
+  &:before {
+    content: $scicon-pinterest; 
+  }
+}
+.scicon-pinterest-alt {
+  &:before {
+    content: $scicon-pinterest-alt; 
+  }
+}
+.scicon-pinterest-text {
+  &:before {
+    content: $scicon-pinterest-text; 
+  }
+}
+.scicon-pinterest-wordmark {
+  &:before {
+    content: $scicon-pinterest-wordmark; 
+  }
+}
+.scicon-playstore {
+  &:before {
+    content: $scicon-playstore; 
+  }
+}
+.scicon-prelude {
+  &:before {
+    content: $scicon-prelude; 
+  }
+}
+.scicon-premiere-pro {
+  &:before {
+    content: $scicon-premiere-pro; 
+  }
+}
+.scicon-python {
+  &:before {
+    content: $scicon-python; 
+  }
+}
+.scicon-quora {
+  &:before {
+    content: $scicon-quora; 
+  }
+}
+.scicon-quora-alt {
+  &:before {
+    content: $scicon-quora-alt; 
+  }
+}
+.scicon-react {
+  &:before {
+    content: $scicon-react; 
+  }
+}
+.scicon-reddit {
+  &:before {
+    content: $scicon-reddit; 
+  }
+}
+.scicon-reddit-alt {
+  &:before {
+    content: $scicon-reddit-alt; 
+  }
+}
+.scicon-reddit-text {
+  &:before {
+    content: $scicon-reddit-text; 
+  }
+}
+.scicon-reddit-wordmark {
+  &:before {
+    content: $scicon-reddit-wordmark; 
+  }
+}
+.scicon-researchgate {
+  &:before {
+    content: $scicon-researchgate; 
+  }
+}
+.scicon-researchgate-alt {
+  &:before {
+    content: $scicon-researchgate-alt; 
+  }
+}
+.scicon-sass {
+  &:before {
+    content: $scicon-sass; 
+  }
+}
+.scicon-scihook {
+  &:before {
+    content: $scicon-scihook; 
+  }
+}
+.scicon-scihook-alt {
+  &:before {
+    content: $scicon-scihook-alt; 
+  }
+}
+.scicon-scihook-square {
+  &:before {
+    content: $scicon-scihook-square; 
+  }
+}
+.scicon-skype {
+  &:before {
+    content: $scicon-skype; 
+  }
+}
+.scicon-slack {
+  &:before {
+    content: $scicon-slack; 
+  }
+}
+.scicon-slack-wordmark {
+  &:before {
+    content: $scicon-slack-wordmark; 
+  }
+}
+.scicon-spacex {
+  &:before {
+    content: $scicon-spacex; 
+  }
+}
+.scicon-spacex-alt {
+  &:before {
+    content: $scicon-spacex-alt; 
+  }
+}
+.scicon-spotify {
+  &:before {
+    content: $scicon-spotify; 
+  }
+}
+.scicon-spotify-text {
+  &:before {
+    content: $scicon-spotify-text; 
+  }
+}
+.scicon-spotify-wordmark {
+  &:before {
+    content: $scicon-spotify-wordmark; 
+  }
+}
+.scicon-sqlite {
+  &:before {
+    content: $scicon-sqlite; 
+  }
+}
+.scicon-sqlite-wordmark {
+  &:before {
+    content: $scicon-sqlite-wordmark; 
+  }
+}
+.scicon-stackoverflow {
+  &:before {
+    content: $scicon-stackoverflow; 
+  }
+}
+.scicon-stackoverflow-text {
+  &:before {
+    content: $scicon-stackoverflow-text; 
+  }
+}
+.scicon-stackoverflow-wordmark {
+  &:before {
+    content: $scicon-stackoverflow-wordmark; 
+  }
+}
+.scicon-steam {
+  &:before {
+    content: $scicon-steam; 
+  }
+}
+.scicon-stripe {
+  &:before {
+    content: $scicon-stripe; 
+  }
+}
+.scicon-stripe-s {
+  &:before {
+    content: $scicon-stripe-s; 
+  }
+}
+.scicon-swift {
+  &:before {
+    content: $scicon-swift; 
+  }
+}
+.scicon-telegram {
+  &:before {
+    content: $scicon-telegram; 
+  }
+}
+.scicon-telegram-rounded {
+  &:before {
+    content: $scicon-telegram-rounded; 
+  }
+}
+.scicon-tesla-inc {
+  &:before {
+    content: $scicon-tesla-inc; 
+  }
+}
+.scicon-tesla-text {
+  &:before {
+    content: $scicon-tesla-text; 
+  }
+}
+.scicon-tesla-wordmark {
+  &:before {
+    content: $scicon-tesla-wordmark; 
+  }
+}
+.scicon-threads {
+  &:before {
+    content: $scicon-threads; 
+  }
+}
+.scicon-tiktok {
+  &:before {
+    content: $scicon-tiktok; 
+  }
+}
+.scicon-tiktok-text {
+  &:before {
+    content: $scicon-tiktok-text; 
+  }
+}
+.scicon-topaz-labs {
+  &:before {
+    content: $scicon-topaz-labs; 
+  }
+}
+.scicon-topaz-labs-wordmark {
+  &:before {
+    content: $scicon-topaz-labs-wordmark; 
+  }
+}
+.scicon-tua {
+  &:before {
+    content: $scicon-tua; 
+  }
+}
+.scicon-tua-wordmark {
+  &:before {
+    content: $scicon-tua-wordmark; 
+  }
+}
+.scicon-tubitak {
+  &:before {
+    content: $scicon-tubitak; 
+  }
+}
+.scicon-tubitak-wordmark {
+  &:before {
+    content: $scicon-tubitak-wordmark; 
+  }
+}
+.scicon-tumblr {
+  &:before {
+    content: $scicon-tumblr; 
+  }
+}
+.scicon-tumblr-text {
+  &:before {
+    content: $scicon-tumblr-text; 
+  }
+}
+.scicon-twitch {
+  &:before {
+    content: $scicon-twitch; 
+  }
+}
+.scicon-twitter {
+  &:before {
+    content: $scicon-twitter; 
+  }
+}
+.scicon-typescript {
+  &:before {
+    content: $scicon-typescript; 
+  }
+}
+.scicon-typescript-rounded {
+  &:before {
+    content: $scicon-typescript-rounded; 
+  }
+}
+.scicon-unity {
+  &:before {
+    content: $scicon-unity; 
+  }
+}
+.scicon-unity-wordmark {
+  &:before {
+    content: $scicon-unity-wordmark; 
+  }
+}
+.scicon-ups {
+  &:before {
+    content: $scicon-ups; 
+  }
+}
+.scicon-vimeo {
+  &:before {
+    content: $scicon-vimeo; 
+  }
+}
+.scicon-vimeo-text {
+  &:before {
+    content: $scicon-vimeo-text; 
+  }
+}
+.scicon-visual-studio {
+  &:before {
+    content: $scicon-visual-studio; 
+  }
+}
+.scicon-visual-studio-code {
+  &:before {
+    content: $scicon-visual-studio-code; 
+  }
+}
+.scicon-vsc-insiders {
+  &:before {
+    content: $scicon-vsc-insiders; 
+  }
+}
+.scicon-vuejs {
+  &:before {
+    content: $scicon-vuejs; 
+  }
+}
+.scicon-whatsapp {
+  &:before {
+    content: $scicon-whatsapp; 
+  }
+}
+.scicon-wikimedia {
+  &:before {
+    content: $scicon-wikimedia; 
+  }
+}
+.scicon-wikimedia-text {
+  &:before {
+    content: $scicon-wikimedia-text; 
+  }
+}
+.scicon-wikimedia-wordmark {
+  &:before {
+    content: $scicon-wikimedia-wordmark; 
+  }
+}
+.scicon-wikipedia {
+  &:before {
+    content: $scicon-wikipedia; 
+  }
+}
+.scicon-x-corp {
+  &:before {
+    content: $scicon-x-corp; 
+  }
+}
+.scicon-yahoo {
+  &:before {
+    content: $scicon-yahoo; 
+  }
+}
+.scicon-yahoo-wordmark {
+  &:before {
+    content: $scicon-yahoo-wordmark; 
+  }
+}
+.scicon-yandex {
+  &:before {
+    content: $scicon-yandex; 
+  }
+}
+.scicon-yandex-ru {
+  &:before {
+    content: $scicon-yandex-ru; 
+  }
+}
+.scicon-yandex-ru-wordmark {
+  &:before {
+    content: $scicon-yandex-ru-wordmark; 
+  }
+}
+.scicon-yandex-wordmark {
+  &:before {
+    content: $scicon-yandex-wordmark; 
+  }
+}
+.scicon-youtube {
+  &:before {
+    content: $scicon-youtube; 
+  }
+}
+.scicon-youtube-play {
+  &:before {
+    content: $scicon-youtube-play; 
+  }
+}
+.scicon-youtube-text {
+  &:before {
+    content: $scicon-youtube-text; 
+  }
+}
+.scicon-youtube-wordmark {
+  &:before {
+    content: $scicon-youtube-wordmark; 
+  }
+}
+.scicon-zendesk {
+  &:before {
+    content: $scicon-zendesk; 
+  }
+}
+.scicon-zendesk-wordmark {
+  &:before {
+    content: $scicon-zendesk-wordmark; 
+  }
+}
+.scicon-zotero {
+  &:before {
+    content: $scicon-zotero; 
+  }
+}
+.scicon-zoterobib {
+  &:before {
+    content: $scicon-zoterobib; 
+  }
+}
+.scicon-zotero-wordmark {
+  &:before {
+    content: $scicon-zotero-wordmark; 
+  }
+}
+.scicon-acrobat {
+  &:before {
+    content: $scicon-acrobat; 
+  }
+}
+.scicon-adobe {
+  &:before {
+    content: $scicon-adobe; 
+  }
+}
+.scicon-adobe-animate {
+  &:before {
+    content: $scicon-adobe-animate; 
+  }
+}
+.scicon-adobe-fuse {
+  &:before {
+    content: $scicon-adobe-fuse; 
+  }
+}
+.scicon-adobe-wordmark {
+  &:before {
+    content: $scicon-adobe-wordmark; 
+  }
+}
+.scicon-after-effects {
+  &:before {
+    content: $scicon-after-effects; 
+  }
+}
+

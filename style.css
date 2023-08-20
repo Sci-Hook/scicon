@@ -1,0 +1,696 @@
+@font-face {
+  font-family: 'Scicon';
+  src:  url('fonts/Scicon.eot?7nfww4');
+  src:  url('fonts/Scicon.eot?7nfww4#iefix') format('embedded-opentype'),
+    url('fonts/Scicon.ttf?7nfww4') format('truetype'),
+    url('fonts/Scicon.woff?7nfww4') format('woff'),
+    url('fonts/Scicon.svg?7nfww4#Scicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.scicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Scicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.scicon-amazon:before {
+  content: "\e902";
+}
+.scicon-amazon-a:before {
+  content: "\e903";
+}
+.scicon-apache:before {
+  content: "\e904";
+}
+.scicon-apache-wordmark:before {
+  content: "\e905";
+}
+.scicon-apple-inc:before {
+  content: "\e906";
+}
+.scicon-appstore:before {
+  content: "\e907";
+}
+.scicon-arduino:before {
+  content: "\e908";
+}
+.scicon-arduino-wordmark:before {
+  content: "\e909";
+}
+.scicon-bing:before {
+  content: "\e90a";
+}
+.scicon-bootstrap:before {
+  content: "\e90b";
+}
+.scicon-brave:before {
+  content: "\e90c";
+}
+.scicon-brave-text:before {
+  content: "\e90d";
+}
+.scicon-brave-wordmark:before {
+  content: "\e90e";
+}
+.scicon-chrome:before {
+  content: "\e90f";
+}
+.scicon-c-lang:before {
+  content: "\e910";
+}
+.scicon-c-lang-alt:before {
+  content: "\e911";
+}
+.scicon-cloudflare:before {
+  content: "\e912";
+}
+.scicon-cloudflare-wordmark:before {
+  content: "\e913";
+}
+.scicon-codepen:before {
+  content: "\e914";
+}
+.scicon-cpanel:before {
+  content: "\e915";
+}
+.scicon-cpp-lang:before {
+  content: "\e916";
+}
+.scicon-creative-cloud:before {
+  content: "\e917";
+}
+.scicon-c-sharp:before {
+  content: "\e918";
+}
+.scicon-css:before {
+  content: "\e919";
+}
+.scicon-css-wordmark:before {
+  content: "\e91a";
+}
+.scicon-discord:before {
+  content: "\e91b";
+}
+.scicon-discord-text:before {
+  content: "\e91c";
+}
+.scicon-discord-wordmark:before {
+  content: "\e91d";
+}
+.scicon-docker:before {
+  content: "\e91e";
+}
+.scicon-docker-wordmark:before {
+  content: "\e91f";
+}
+.scicon-dreamweaver:before {
+  content: "\e920";
+}
+.scicon-dribbble:before {
+  content: "\e921";
+}
+.scicon-edge:before {
+  content: "\e922";
+}
+.scicon-edge-alt:before {
+  content: "\e923";
+}
+.scicon-edge-old:before {
+  content: "\e924";
+}
+.scicon-esa:before {
+  content: "\e925";
+}
+.scicon-esa-text:before {
+  content: "\e926";
+}
+.scicon-esa-wordmark:before {
+  content: "\e927";
+}
+.scicon-facebook:before {
+  content: "\e928";
+}
+.scicon-facebook-f:before {
+  content: "\e929";
+}
+.scicon-firefox:before {
+  content: "\e92a";
+}
+.scicon-flickr:before {
+  content: "\e92b";
+}
+.scicon-flickr-wordmark:before {
+  content: "\e92c";
+}
+.scicon-fortran:before {
+  content: "\e92d";
+}
+.scicon-f-sharp:before {
+  content: "\e92e";
+}
+.scicon-github:before {
+  content: "\e92f";
+}
+.scicon-github-text:before {
+  content: "\e930";
+}
+.scicon-gitlab:before {
+  content: "\e931";
+}
+.scicon-gitlab-text:before {
+  content: "\e932";
+}
+.scicon-gitlab-wordmark:before {
+  content: "\e933";
+}
+.scicon-gmail:before {
+  content: "\e934";
+}
+.scicon-go-gopher:before {
+  content: "\e935";
+}
+.scicon-go-lang:before {
+  content: "\e936";
+}
+.scicon-google:before {
+  content: "\e937";
+}
+.scicon-google-text:before {
+  content: "\e938";
+}
+.scicon-guilded:before {
+  content: "\e939";
+}
+.scicon-guilded-wordmark:before {
+  content: "\e93a";
+}
+.scicon-html5:before {
+  content: "\e93b";
+}
+.scicon-html5-wordmark:before {
+  content: "\e93c";
+}
+.scicon-ibm:before {
+  content: "\e93d";
+}
+.scicon-illustrator:before {
+  content: "\e93e";
+}
+.scicon-incopy:before {
+  content: "\e93f";
+}
+.scicon-indesign:before {
+  content: "\e940";
+}
+.scicon-instagram:before {
+  content: "\e941";
+}
+.scicon-instagram-alt:before {
+  content: "\e942";
+}
+.scicon-java:before {
+  content: "\e943";
+}
+.scicon-javascript:before {
+  content: "\e944";
+}
+.scicon-javascript-text:before {
+  content: "\e945";
+}
+.scicon-java-wordmark:before {
+  content: "\e946";
+}
+.scicon-jquery:before {
+  content: "\e947";
+}
+.scicon-jquery-slogan:before {
+  content: "\e948";
+}
+.scicon-jquery-wordmark:before {
+  content: "\e949";
+}
+.scicon-jsdelivr:before {
+  content: "\e94a";
+}
+.scicon-jsdelivr-text:before {
+  content: "\e94b";
+}
+.scicon-jsdelivr-wordmark:before {
+  content: "\e94c";
+}
+.scicon-khan-academy:before {
+  content: "\e94d";
+}
+.scicon-khan-academy-alt:before {
+  content: "\e94e";
+}
+.scicon-khan-academy-text:before {
+  content: "\e94f";
+}
+.scicon-khan-academy-wordmark:before {
+  content: "\e950";
+}
+.scicon-kickstarter:before {
+  content: "\e951";
+}
+.scicon-kickstarter-wordmark:before {
+  content: "\e952";
+}
+.scicon-lightroom:before {
+  content: "\e953";
+}
+.scicon-lightroom-classic:before {
+  content: "\e954";
+}
+.scicon-linkedin:before {
+  content: "\e955";
+}
+.scicon-linkedin-wordmark:before {
+  content: "\e956";
+}
+.scicon-markdown:before {
+  content: "\e957";
+}
+.scicon-markdown-alt:before {
+  content: "\e958";
+}
+.scicon-mastodon:before {
+  content: "\e959";
+}
+.scicon-matlab:before {
+  content: "\e95a";
+}
+.scicon-maxcdn:before {
+  content: "\e95b";
+}
+.scicon-medium:before {
+  content: "\e95c";
+}
+.scicon-medium-text:before {
+  content: "\e95d";
+}
+.scicon-medium-wordmark:before {
+  content: "\e95e";
+}
+.scicon-mercedes:before {
+  content: "\e95f";
+}
+.scicon-messenger:before {
+  content: "\e960";
+}
+.scicon-messenger-alt:before {
+  content: "\e961";
+}
+.scicon-meta:before {
+  content: "\e962";
+}
+.scicon-meta-wordmark:before {
+  content: "\e963";
+}
+.scicon-microsoft:before {
+  content: "\e964";
+}
+.scicon-microsoft-text:before {
+  content: "\e965";
+}
+.scicon-microsoft-wordmark:before {
+  content: "\e966";
+}
+.scicon-mongodb-leaf:before {
+  content: "\e967";
+}
+.scicon-mongodb-wordmark:before {
+  content: "\e968";
+}
+.scicon-mozilla:before {
+  content: "\e969";
+}
+.scicon-mysql:before {
+  content: "\e96a";
+}
+.scicon-mysql-mark:before {
+  content: "\e96b";
+}
+.scicon-mysql-text:before {
+  content: "\e96c";
+}
+.scicon-nasa:before {
+  content: "\e96d";
+}
+.scicon-nasa-worm:before {
+  content: "\e96e";
+}
+.scicon-nature:before {
+  content: "\e96f";
+}
+.scicon-nature-text:before {
+  content: "\e970";
+}
+.scicon-nodejs:before {
+  content: "\e971";
+}
+.scicon-nodejs-js:before {
+  content: "\e972";
+}
+.scicon-nodejs-wordmark:before {
+  content: "\e973";
+}
+.scicon-npm:before {
+  content: "\e974";
+}
+.scicon-npm-alt:before {
+  content: "\e975";
+}
+.scicon-npm-text:before {
+  content: "\e976";
+}
+.scicon-nsf:before {
+  content: "\e977";
+}
+.scicon-openai:before {
+  content: "\e978";
+}
+.scicon-openai-text:before {
+  content: "\e979";
+}
+.scicon-openai-wordmark:before {
+  content: "\e97a";
+}
+.scicon-orcid:before {
+  content: "\e97b";
+}
+.scicon-patreon:before {
+  content: "\e97c";
+}
+.scicon-patreon-text:before {
+  content: "\e97d";
+}
+.scicon-perl:before {
+  content: "\e97e";
+}
+.scicon-perl-camel:before {
+  content: "\e97f";
+}
+.scicon-photoshop:before {
+  content: "\e980";
+}
+.scicon-php:before {
+  content: "\e981";
+}
+.scicon-php-text:before {
+  content: "\e982";
+}
+.scicon-pinterest:before {
+  content: "\e983";
+}
+.scicon-pinterest-alt:before {
+  content: "\e984";
+}
+.scicon-pinterest-text:before {
+  content: "\e985";
+}
+.scicon-pinterest-wordmark:before {
+  content: "\e986";
+}
+.scicon-playstore:before {
+  content: "\e987";
+}
+.scicon-prelude:before {
+  content: "\e988";
+}
+.scicon-premiere-pro:before {
+  content: "\e989";
+}
+.scicon-python:before {
+  content: "\e98a";
+}
+.scicon-quora:before {
+  content: "\e98b";
+}
+.scicon-quora-alt:before {
+  content: "\e98c";
+}
+.scicon-react:before {
+  content: "\e98d";
+}
+.scicon-reddit:before {
+  content: "\e98e";
+}
+.scicon-reddit-alt:before {
+  content: "\e98f";
+}
+.scicon-reddit-text:before {
+  content: "\e990";
+}
+.scicon-reddit-wordmark:before {
+  content: "\e991";
+}
+.scicon-researchgate:before {
+  content: "\e992";
+}
+.scicon-researchgate-alt:before {
+  content: "\e993";
+}
+.scicon-sass:before {
+  content: "\e994";
+}
+.scicon-scihook:before {
+  content: "\e995";
+}
+.scicon-scihook-alt:before {
+  content: "\e996";
+}
+.scicon-scihook-square:before {
+  content: "\e997";
+}
+.scicon-skype:before {
+  content: "\e998";
+}
+.scicon-slack:before {
+  content: "\e999";
+}
+.scicon-slack-wordmark:before {
+  content: "\e99a";
+}
+.scicon-spacex:before {
+  content: "\e99b";
+}
+.scicon-spacex-alt:before {
+  content: "\e99c";
+}
+.scicon-spotify:before {
+  content: "\e99d";
+}
+.scicon-spotify-text:before {
+  content: "\e99e";
+}
+.scicon-spotify-wordmark:before {
+  content: "\e99f";
+}
+.scicon-sqlite:before {
+  content: "\e9a0";
+}
+.scicon-sqlite-wordmark:before {
+  content: "\e9a1";
+}
+.scicon-stackoverflow:before {
+  content: "\e9a2";
+}
+.scicon-stackoverflow-text:before {
+  content: "\e9a3";
+}
+.scicon-stackoverflow-wordmark:before {
+  content: "\e9a4";
+}
+.scicon-steam:before {
+  content: "\e9a5";
+}
+.scicon-stripe:before {
+  content: "\e9a6";
+}
+.scicon-stripe-s:before {
+  content: "\e9a7";
+}
+.scicon-swift:before {
+  content: "\e9a8";
+}
+.scicon-telegram:before {
+  content: "\e9a9";
+}
+.scicon-telegram-rounded:before {
+  content: "\e9aa";
+}
+.scicon-tesla-inc:before {
+  content: "\e9ab";
+}
+.scicon-tesla-text:before {
+  content: "\e9ac";
+}
+.scicon-tesla-wordmark:before {
+  content: "\e9ad";
+}
+.scicon-threads:before {
+  content: "\e9ae";
+}
+.scicon-tiktok:before {
+  content: "\e9af";
+}
+.scicon-tiktok-text:before {
+  content: "\e9b0";
+}
+.scicon-topaz-labs:before {
+  content: "\e9b1";
+}
+.scicon-topaz-labs-wordmark:before {
+  content: "\e9b2";
+}
+.scicon-tua:before {
+  content: "\e9b3";
+}
+.scicon-tua-wordmark:before {
+  content: "\e9b4";
+}
+.scicon-tubitak:before {
+  content: "\e9b5";
+}
+.scicon-tubitak-wordmark:before {
+  content: "\e9b6";
+}
+.scicon-tumblr:before {
+  content: "\e9b7";
+}
+.scicon-tumblr-text:before {
+  content: "\e9b8";
+}
+.scicon-twitch:before {
+  content: "\e9b9";
+}
+.scicon-twitter:before {
+  content: "\e9ba";
+}
+.scicon-typescript:before {
+  content: "\e9bb";
+}
+.scicon-typescript-rounded:before {
+  content: "\e9bc";
+}
+.scicon-unity:before {
+  content: "\e9bd";
+}
+.scicon-unity-wordmark:before {
+  content: "\e9be";
+}
+.scicon-ups:before {
+  content: "\e9bf";
+}
+.scicon-vimeo:before {
+  content: "\e9c0";
+}
+.scicon-vimeo-text:before {
+  content: "\e9c1";
+}
+.scicon-visual-studio:before {
+  content: "\e9c2";
+}
+.scicon-visual-studio-code:before {
+  content: "\e9c3";
+}
+.scicon-vsc-insiders:before {
+  content: "\e9c4";
+}
+.scicon-vuejs:before {
+  content: "\e9c5";
+}
+.scicon-whatsapp:before {
+  content: "\e9c6";
+}
+.scicon-wikimedia:before {
+  content: "\e9c7";
+}
+.scicon-wikimedia-text:before {
+  content: "\e9c8";
+}
+.scicon-wikimedia-wordmark:before {
+  content: "\e9c9";
+}
+.scicon-wikipedia:before {
+  content: "\e9ca";
+}
+.scicon-x-corp:before {
+  content: "\e9cb";
+}
+.scicon-yahoo:before {
+  content: "\e9cc";
+}
+.scicon-yahoo-wordmark:before {
+  content: "\e9cd";
+}
+.scicon-yandex:before {
+  content: "\e9ce";
+}
+.scicon-yandex-ru:before {
+  content: "\e9cf";
+}
+.scicon-yandex-ru-wordmark:before {
+  content: "\e9d0";
+}
+.scicon-yandex-wordmark:before {
+  content: "\e9d1";
+}
+.scicon-youtube:before {
+  content: "\e9d2";
+}
+.scicon-youtube-play:before {
+  content: "\e9d3";
+}
+.scicon-youtube-text:before {
+  content: "\e9d4";
+}
+.scicon-youtube-wordmark:before {
+  content: "\e9d5";
+}
+.scicon-zendesk:before {
+  content: "\e9d6";
+}
+.scicon-zendesk-wordmark:before {
+  content: "\e9d7";
+}
+.scicon-zotero:before {
+  content: "\e9d8";
+}
+.scicon-zoterobib:before {
+  content: "\e9d9";
+}
+.scicon-zotero-wordmark:before {
+  content: "\e9da";
+}
+.scicon-acrobat:before {
+  content: "\e9db";
+}
+.scicon-adobe:before {
+  content: "\e9dc";
+}
+.scicon-adobe-animate:before {
+  content: "\e9dd";
+}
+.scicon-adobe-fuse:before {
+  content: "\e9de";
+}
+.scicon-adobe-wordmark:before {
+  content: "\e9df";
+}
+.scicon-after-effects:before {
+  content: "\e9e0";
+}
