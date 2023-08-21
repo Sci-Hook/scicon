@@ -1,6 +1,6 @@
 Bu bilgilendirme yazısı, paket hakkında özet bilgi vermeyi hedeflemektedir. Dolayısıyla oldukça kısa ve detaysız bir şekilde yazılmıştır. Ancak bu bilgilendirme yazısını okuyan bir geliştirici paketi rahatlıkla kullanmaya başlayabilecektir. Lütfen daha detaylı bilgilendirme için resmî Scicon dokümanlarını [ziyaret ediniz](https://github.com/Sci-Hook/scicon/wiki).
 
-# Genel Bilgilendirme ![Paketteki İkon Sayısı](https://img.shields.io/badge/Paketteki%20%C4%B0kon%20Say%C4%B1s%C4%B1-223-blue?style=flat)
+# Genel Bilgilendirme
 
 Projelerinizi tasarımsal ve görsel açıdan daha iyi hale getirmek için ikonlar oldukça iyi bir seçimdir. Scicon İkon Paketi, çalışmalarınızda özgürce kullanabileceğiniz bir ikon paketidir. Dilerseniz doğrudan bu paketi kurarak bütün Scicon ikonlarını projenize dahil edebilir, dilerseniz de Scicon İkon Paketi'nin diğer kategorilerini ayrı ayrı kurup istediğiniz ikon kategorisindeki ikonları projenize dahil edebilirsiniz.
 
@@ -38,7 +38,7 @@ Scicon Paketi için daha detaylı dokümantasyon mevcuttur. Kurulum hakkında de
 
 [Scicon Github Issues Sayfası](https://github.com/Sci-Hook/scicon/issues)
 
-# Sürümlendirme ![Stabil Sürüm](https://img.shields.io/badge/Stabil%20S%C3%BCr%C3%BCm-1.0.1-alpha.1-orange?style=flat) ![Son Sürüm](https://img.shields.io/badge/Son%20S%C3%BCr%C3%BCm-1.0.1-alpha.1-orange?style=flat)
+# Sürümlendirme
 
 Scicon İkon Paketi'ni sürümlendirirken Semantic Sürümlendirmesi ile kendi sürümlendirme sistemimizi birleştirip kullanıyoruz. İkonları şu şekilde sürümlendiriyoruz:
 
@@ -46,9 +46,9 @@ Scicon İkon Paketi'ni sürümlendirirken Semantic Sürümlendirmesi ile kendi s
 
 Ana sürüm, paketin üst sürümüdür ve büyük çaplı değişiklikleri kapsamaktadır. Bu büyük çaplı değişiklikler, yazılımsal değişiklikler ve yeni ikon stilleri gibi önemli güncellemeleri kapsamaktadır. Scicon Paketi'nin ana sürümünü daima güncel tutmanızı öneririz.
 
-İkon güncellemesi; yeni eklenen, güncellenen ve çıkarılan ikonları kapsamaktadır. Her bir ikon değişikliği için sürüm bir kere artırılır. Örneğin; sürümü 2.0.1 olan paketin yeni sürümünde 5 yeni ikon eklendiyse 3 ikon çıkarıldıysa yeni sürüm, 2.8.1 olacaktır.
+İkon güncellemesi; yeni eklenen, güncellenen ve çıkarılan ikonları kapsamaktadır. Örneğin; ikon değiştirildiğinde, eklendiğinde veya çıkarıldığında bu sürüm artırılır.
 
-Yamalar; yazılımsal hata düzeltmelerini, yazım hatalarını ve küçük çaplı ikon düzeltmelerini kapsamaktadır. Yamalar, önemli değişiklikleri kapsamamaktadır. Ancak yine de paketin stabil sürümünün kullanılması paketten en iyi verimin alınması için önemlidir.
+Yamalar; yazılımsal hata düzeltmelerini, yazım hatalarını, doküman güncellemelerini ve küçük çaplı ikon düzeltmelerini kapsamaktadır. Yamalar, önemli değişiklikleri kapsamamaktadır. Ancak yine de paketin stabil sürümünün kullanılması paketten en iyi verimin alınması için önemlidir.
 
 # İkon Talebi, Hata Raporlama, Öneriler ve Katkı Sağlama
 

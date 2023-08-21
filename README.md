@@ -1,6 +1,8 @@
+![Number of Icons in the Pack](https://img.shields.io/badge/Number%20of%20Icons%20in%20the%20Pack-223-blue?style=flat) [![Icon Requests](https://img.shields.io/badge/Icon%20Requests-Open-green?style=flat&link=https://github.com/Sci-Hook/scicon/issues/new/choose)](https://github.com/Sci-Hook/scicon/issues/new/choose) [![Bug Reports](https://img.shields.io/badge/Bug%20Reports-Open-green?style=flat&link=https://github.com/Sci-Hook/scicon/issues/new/choose)](https://github.com/Sci-Hook/scicon/issues/new/choose) [![npm version](https://badge.fury.io/js/scicon.svg)](https://badge.fury.io/js/scicon) [![install size](https://packagephobia.com/badge?p=scicon)](https://packagephobia.com/result?p=scicon) ![Chrome Browser Support](https://img.shields.io/badge/Chrome%20Browser%20Support-Latest-green?style=flat&logo=googlechrome&logoColor=white) ![Firefox Browser Support](https://img.shields.io/badge/Firefox%20Browser%20Support-Latest-green?style=flat&logo=firefoxbrowser&logoColor=white) ![Edge Browser Support](https://img.shields.io/badge/Edge%20Browser%20Support-Latest-green?style=flat&logo=microsoftedge&logoColor=white) ![Safari Browser Support](https://img.shields.io/badge/Safari%20Browser%20Support-Latest-green?style=flat&logo=safari&logoColor=white) ![Opera Browser Support](https://img.shields.io/badge/Opera%20Browser%20Support-Latest-green?style=flat&logo=opera&logoColor=white) ![Internet Explorer Browser Support](https://img.shields.io/badge/Internet%20Explorer%20Browser%20Support-IE%206,%20IE%207,%20IE%208-green?style=flat&logo=internetexplorer&logoColor=white) [![Support](https://img.shields.io/badge/Support-opensource@scihook.org-orange?style=flat&link=mailto:opensource@scihook.org)](mailto:opensource@scihook.org) [![Sci-Hook Developer Forum](https://img.shields.io/badge/Sci--Hook%20Developer%20Forum-gray?style=flat&logo=github&logoColor=white&link=https://github.com/orgs/Sci-Hook/discussions)](https://github.com/orgs/Sci-Hook/discussions)
+
 This informative text aims to provide brief information about the package. Therefore, it is written in a very short and detailed way. However, a developer who reads this information will be able to start using the package easily. Please [visit](https://github.com/Sci-Hook/scicon/wiki) the official Scicon documentation for more detailed information.
 
-# General Information ![Number of Icons in the Pack](https://img.shields.io/badge/Number%20of%20Icons%20in%20the%20Pack-223-blue?style=flat)
+# General Information
 
 Icons are a good choice to make your projects better from a design and visual point of view. Scicon Icon Pack is an icon pack that you can freely use in your work. If you wish, you can include all Scicon icons in your project by installing this package directly, or you can install the other categories of the Scicon Icon Package separately and include the icons in the icon category you want in your project.
 
@@ -38,17 +40,17 @@ More detailed documentation is available for the Scicon Pack. Please check the G
 
 [Scicon Github Issues Page](https://github.com/Sci-Hook/scicon/issues)
 
-# Versioning ![Stable Version](https://img.shields.io/badge/Stable%20Version-1.0.1-alpha.1-orange?style=flat) ![Latest Version](https://img.shields.io/badge/Latest%20Version-1.0.1-alpha.1-orange?style=flat)
+# Versioning
 
 When versioning the Scicon Icon Pack, we combine Semantic Versioning with our own versioning system. Here's how we version the icons:
 
 `<main-version (major)>.<icon-update (minor)>.patch>`
 
-The major release is the top version of the package and includes major changes. These major changes include software changes and important updates such as new icon styles. We recommend that you always keep the major version of the Scicon Pack up to date.
+The major version is the top version of the package and includes major changes. These major changes include major updates such as software changes and new icon styles. We recommend that you always keep the major version of Scicon Pack up to date.
 
-The icon update includes new, updated and removed icons. For each icon change, the version is incremented once. For example, if 5 new icons are added and 3 icons are removed in the new version of the package version 2.0.1, the new version will be 2.8.1.
+Minor version includes newly added, updated and removed icons. For example; this version increases when the icon is changed, added or removed.
 
-Patches include software bug fixes, typos and minor icon fixes. Patches do not include major changes. However, it is still important to use the stable version of the package to get the most out of it.
+Patches include software bug fixes, typos, document updates and minor icon fixes. Patches do not cover major changes. However, using the stable version of the package is still important to get the most out of the package.
 
 # Icon Request, Bug Reporting, Suggestions and Contributions
 
