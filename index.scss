@@ -27,6 +27,441 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.scicon-armut {
+  &:before {
+    content: $scicon-armut; 
+  }
+}
+.scicon-armut-text {
+  &:before {
+    content: $scicon-armut-text; 
+  }
+}
+.scicon-armut-wordmark {
+  &:before {
+    content: $scicon-armut-wordmark; 
+  }
+}
+.scicon-arxiv {
+  &:before {
+    content: $scicon-arxiv; 
+  }
+}
+.scicon-arxiv-wordmark {
+  &:before {
+    content: $scicon-arxiv-wordmark; 
+  }
+}
+.scicon-authy {
+  &:before {
+    content: $scicon-authy; 
+  }
+}
+.scicon-authy-alt {
+  &:before {
+    content: $scicon-authy-alt; 
+  }
+}
+.scicon-authy-wordmark {
+  &:before {
+    content: $scicon-authy-wordmark; 
+  }
+}
+.scicon-behance {
+  &:before {
+    content: $scicon-behance; 
+  }
+}
+.scicon-behance-alt {
+  &:before {
+    content: $scicon-behance-alt; 
+  }
+}
+.scicon-blogger {
+  &:before {
+    content: $scicon-blogger; 
+  }
+}
+.scicon-blogger-b {
+  &:before {
+    content: $scicon-blogger-b; 
+  }
+}
+.scicon-bluetooth {
+  &:before {
+    content: $scicon-bluetooth; 
+  }
+}
+.scicon-bluetooth-b {
+  &:before {
+    content: $scicon-bluetooth-b; 
+  }
+}
+.scicon-buy-me-a-coffee {
+  &:before {
+    content: $scicon-buy-me-a-coffee; 
+  }
+}
+.scicon-buy-me-a-coffee-wordmark {
+  &:before {
+    content: $scicon-buy-me-a-coffee-wordmark; 
+  }
+}
+.scicon-crossref {
+  &:before {
+    content: $scicon-crossref; 
+  }
+}
+.scicon-crossref-wordmark {
+  &:before {
+    content: $scicon-crossref-wordmark; 
+  }
+}
+.scicon-doi-foundation {
+  &:before {
+    content: $scicon-doi-foundation; 
+  }
+}
+.scicon-doi-foundation-wordmark {
+  &:before {
+    content: $scicon-doi-foundation-wordmark; 
+  }
+}
+.scicon-fedora {
+  &:before {
+    content: $scicon-fedora; 
+  }
+}
+.scicon-fedora-alt {
+  &:before {
+    content: $scicon-fedora-alt; 
+  }
+}
+.scicon-fedora-text {
+  &:before {
+    content: $scicon-fedora-text; 
+  }
+}
+.scicon-fedora-wordmark {
+  &:before {
+    content: $scicon-fedora-wordmark; 
+  }
+}
+.scicon-git {
+  &:before {
+    content: $scicon-git; 
+  }
+}
+.scicon-git-text {
+  &:before {
+    content: $scicon-git-text; 
+  }
+}
+.scicon-git-wordmark {
+  &:before {
+    content: $scicon-git-wordmark; 
+  }
+}
+.scicon-google-pay {
+  &:before {
+    content: $scicon-google-pay; 
+  }
+}
+.scicon-google-scholar {
+  &:before {
+    content: $scicon-google-scholar; 
+  }
+}
+.scicon-huawei {
+  &:before {
+    content: $scicon-huawei; 
+  }
+}
+.scicon-huawei-text {
+  &:before {
+    content: $scicon-huawei-text; 
+  }
+}
+.scicon-huawei-wordmark {
+  &:before {
+    content: $scicon-huawei-wordmark; 
+  }
+}
+.scicon-katex {
+  &:before {
+    content: $scicon-katex; 
+  }
+}
+.scicon-ko-fi {
+  &:before {
+    content: $scicon-ko-fi; 
+  }
+}
+.scicon-ko-fi-wordmark {
+  &:before {
+    content: $scicon-ko-fi-wordmark; 
+  }
+}
+.scicon-linux-foundation {
+  &:before {
+    content: $scicon-linux-foundation; 
+  }
+}
+.scicon-linux-foundation-wordmark {
+  &:before {
+    content: $scicon-linux-foundation-wordmark; 
+  }
+}
+.scicon-linux-foundation-wordmark-alt {
+  &:before {
+    content: $scicon-linux-foundation-wordmark-alt; 
+  }
+}
+.scicon-manjaro {
+  &:before {
+    content: $scicon-manjaro; 
+  }
+}
+.scicon-mathjax {
+  &:before {
+    content: $scicon-mathjax; 
+  }
+}
+.scicon-mathjax-wordmark {
+  &:before {
+    content: $scicon-mathjax-wordmark; 
+  }
+}
+.scicon-meteoroloji-gm {
+  &:before {
+    content: $scicon-meteoroloji-gm; 
+  }
+}
+.scicon-nokia {
+  &:before {
+    content: $scicon-nokia; 
+  }
+}
+.scicon-nokia-n {
+  &:before {
+    content: $scicon-nokia-n; 
+  }
+}
+.scicon-nokia-old {
+  &:before {
+    content: $scicon-nokia-old; 
+  }
+}
+.scicon-odysee {
+  &:before {
+    content: $scicon-odysee; 
+  }
+}
+.scicon-odysee-wordmark {
+  &:before {
+    content: $scicon-odysee-wordmark; 
+  }
+}
+.scicon-opensuse {
+  &:before {
+    content: $scicon-opensuse; 
+  }
+}
+.scicon-opensuse-text {
+  &:before {
+    content: $scicon-opensuse-text; 
+  }
+}
+.scicon-opensuse-wordmark {
+  &:before {
+    content: $scicon-opensuse-wordmark; 
+  }
+}
+.scicon-paypal {
+  &:before {
+    content: $scicon-paypal; 
+  }
+}
+.scicon-paypal-text {
+  &:before {
+    content: $scicon-paypal-text; 
+  }
+}
+.scicon-paypal-wordmark {
+  &:before {
+    content: $scicon-paypal-wordmark; 
+  }
+}
+.scicon-redhat {
+  &:before {
+    content: $scicon-redhat; 
+  }
+}
+.scicon-samsung {
+  &:before {
+    content: $scicon-samsung; 
+  }
+}
+.scicon-samsung-alt {
+  &:before {
+    content: $scicon-samsung-alt; 
+  }
+}
+.scicon-shopify {
+  &:before {
+    content: $scicon-shopify; 
+  }
+}
+.scicon-shopify-text {
+  &:before {
+    content: $scicon-shopify-text; 
+  }
+}
+.scicon-shopify-wordmark {
+  &:before {
+    content: $scicon-shopify-wordmark; 
+  }
+}
+.scicon-tailwind {
+  &:before {
+    content: $scicon-tailwind; 
+  }
+}
+.scicon-tailwind-wordmark {
+  &:before {
+    content: $scicon-tailwind-wordmark; 
+  }
+}
+.scicon-ts-node {
+  &:before {
+    content: $scicon-ts-node; 
+  }
+}
+.scicon-ts-node-wordmark {
+  &:before {
+    content: $scicon-ts-node-wordmark; 
+  }
+}
+.scicon-ubuntu {
+  &:before {
+    content: $scicon-ubuntu; 
+  }
+}
+.scicon-ubuntu-alt {
+  &:before {
+    content: $scicon-ubuntu-alt; 
+  }
+}
+.scicon-usb {
+  &:before {
+    content: $scicon-usb; 
+  }
+}
+.scicon-w3c {
+  &:before {
+    content: $scicon-w3c; 
+  }
+}
+.scicon-wikimedia-commons {
+  &:before {
+    content: $scicon-wikimedia-commons; 
+  }
+}
+.scicon-wixcom {
+  &:before {
+    content: $scicon-wixcom; 
+  }
+}
+.scicon-wordpress {
+  &:before {
+    content: $scicon-wordpress; 
+  }
+}
+.scicon-yaml {
+  &:before {
+    content: $scicon-yaml; 
+  }
+}
+.scicon-yarn {
+  &:before {
+    content: $scicon-yarn; 
+  }
+}
+.scicon-yarn-text {
+  &:before {
+    content: $scicon-yarn-text; 
+  }
+}
+.scicon-yarn-wordmark {
+  &:before {
+    content: $scicon-yarn-wordmark; 
+  }
+}
+.scicon-airbnb {
+  &:before {
+    content: $scicon-airbnb; 
+  }
+}
+.scicon-airbnb-wordmark {
+  &:before {
+    content: $scicon-airbnb-wordmark; 
+  }
+}
+.scicon-amazon-pay {
+  &:before {
+    content: $scicon-amazon-pay; 
+  }
+}
+.scicon-android {
+  &:before {
+    content: $scicon-android; 
+  }
+}
+.scicon-android-tv {
+  &:before {
+    content: $scicon-android-tv; 
+  }
+}
+.scicon-android-wordmark {
+  &:before {
+    content: $scicon-android-wordmark; 
+  }
+}
+.scicon-angular {
+  &:before {
+    content: $scicon-angular; 
+  }
+}
+.scicon-apod {
+  &:before {
+    content: $scicon-apod; 
+  }
+}
+.scicon-apple-pay {
+  &:before {
+    content: $scicon-apple-pay; 
+  }
+}
+.scicon-apple-tv {
+  &:before {
+    content: $scicon-apple-tv; 
+  }
+}
+.scicon-apple-tv-plus {
+  &:before {
+    content: $scicon-apple-tv-plus; 
+  }
+}
+.scicon-archlinux {
+  &:before {
+    content: $scicon-archlinux; 
+  }
+}
+.scicon-archlinux-wordmark {
+  &:before {
+    content: $scicon-archlinux-wordmark; 
+  }
+}
 .scicon-amazon {
   &:before {
     content: $scicon-amazon; 
