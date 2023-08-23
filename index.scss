@@ -27,6 +27,566 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.scicon-amazon-lightsail {
+  &:before {
+    content: $scicon-amazon-lightsail; 
+  }
+}
+.scicon-amazon-lightsail-wordmark {
+  &:before {
+    content: $scicon-amazon-lightsail-wordmark; 
+  }
+}
+.scicon-amazon-ws {
+  &:before {
+    content: $scicon-amazon-ws; 
+  }
+}
+.scicon-amd {
+  &:before {
+    content: $scicon-amd; 
+  }
+}
+.scicon-amd-alt {
+  &:before {
+    content: $scicon-amd-alt; 
+  }
+}
+.scicon-arm {
+  &:before {
+    content: $scicon-arm; 
+  }
+}
+.scicon-asus {
+  &:before {
+    content: $scicon-asus; 
+  }
+}
+.scicon-atlassian {
+  &:before {
+    content: $scicon-atlassian; 
+  }
+}
+.scicon-atlassian-wordmark {
+  &:before {
+    content: $scicon-atlassian-wordmark; 
+  }
+}
+.scicon-atlassian-wordmark-alt {
+  &:before {
+    content: $scicon-atlassian-wordmark-alt; 
+  }
+}
+.scicon-azure {
+  &:before {
+    content: $scicon-azure; 
+  }
+}
+.scicon-canva {
+  &:before {
+    content: $scicon-canva; 
+  }
+}
+.scicon-canva-alt {
+  &:before {
+    content: $scicon-canva-alt; 
+  }
+}
+.scicon-compaq {
+  &:before {
+    content: $scicon-compaq; 
+  }
+}
+.scicon-compaq-wordmark {
+  &:before {
+    content: $scicon-compaq-wordmark; 
+  }
+}
+.scicon-coursera {
+  &:before {
+    content: $scicon-coursera; 
+  }
+}
+.scicon-coursera-wordmark {
+  &:before {
+    content: $scicon-coursera-wordmark; 
+  }
+}
+.scicon-dailymotion {
+  &:before {
+    content: $scicon-dailymotion; 
+  }
+}
+.scicon-dailymotion-alt {
+  &:before {
+    content: $scicon-dailymotion-alt; 
+  }
+}
+.scicon-dailymotion-wordmark {
+  &:before {
+    content: $scicon-dailymotion-wordmark; 
+  }
+}
+.scicon-dell {
+  &:before {
+    content: $scicon-dell; 
+  }
+}
+.scicon-dell-alt {
+  &:before {
+    content: $scicon-dell-alt; 
+  }
+}
+.scicon-discourse {
+  &:before {
+    content: $scicon-discourse; 
+  }
+}
+.scicon-ebay {
+  &:before {
+    content: $scicon-ebay; 
+  }
+}
+.scicon-electron-framework {
+  &:before {
+    content: $scicon-electron-framework; 
+  }
+}
+.scicon-electron-framework-alt {
+  &:before {
+    content: $scicon-electron-framework-alt; 
+  }
+}
+.scicon-etsy {
+  &:before {
+    content: $scicon-etsy; 
+  }
+}
+.scicon-etsy-e {
+  &:before {
+    content: $scicon-etsy-e; 
+  }
+}
+.scicon-evernote {
+  &:before {
+    content: $scicon-evernote; 
+  }
+}
+.scicon-evernote-wordmark {
+  &:before {
+    content: $scicon-evernote-wordmark; 
+  }
+}
+.scicon-evrimagaci {
+  &:before {
+    content: $scicon-evrimagaci; 
+  }
+}
+.scicon-evrimagaci-alt {
+  &:before {
+    content: $scicon-evrimagaci-alt; 
+  }
+}
+.scicon-flaticon {
+  &:before {
+    content: $scicon-flaticon; 
+  }
+}
+.scicon-flaticon-wordmark {
+  &:before {
+    content: $scicon-flaticon-wordmark; 
+  }
+}
+.scicon-flutter {
+  &:before {
+    content: $scicon-flutter; 
+  }
+}
+.scicon-flutter-wordmark {
+  &:before {
+    content: $scicon-flutter-wordmark; 
+  }
+}
+.scicon-font-awesome {
+  &:before {
+    content: $scicon-font-awesome; 
+  }
+}
+.scicon-freecodecamp {
+  &:before {
+    content: $scicon-freecodecamp; 
+  }
+}
+.scicon-gatsby {
+  &:before {
+    content: $scicon-gatsby; 
+  }
+}
+.scicon-gatsby-alt {
+  &:before {
+    content: $scicon-gatsby-alt; 
+  }
+}
+.scicon-gatsby-wordmark {
+  &:before {
+    content: $scicon-gatsby-wordmark; 
+  }
+}
+.scicon-godaddy {
+  &:before {
+    content: $scicon-godaddy; 
+  }
+}
+.scicon-godaddy-wordmark {
+  &:before {
+    content: $scicon-godaddy-wordmark; 
+  }
+}
+.scicon-grammarly {
+  &:before {
+    content: $scicon-grammarly; 
+  }
+}
+.scicon-grammarly-wordmark {
+  &:before {
+    content: $scicon-grammarly-wordmark; 
+  }
+}
+.scicon-hantek {
+  &:before {
+    content: $scicon-hantek; 
+  }
+}
+.scicon-hp {
+  &:before {
+    content: $scicon-hp; 
+  }
+}
+.scicon-hyperx {
+  &:before {
+    content: $scicon-hyperx; 
+  }
+}
+.scicon-imdb {
+  &:before {
+    content: $scicon-imdb; 
+  }
+}
+.scicon-imdb-text {
+  &:before {
+    content: $scicon-imdb-text; 
+  }
+}
+.scicon-intel {
+  &:before {
+    content: $scicon-intel; 
+  }
+}
+.scicon-keysight {
+  &:before {
+    content: $scicon-keysight; 
+  }
+}
+.scicon-keysight-wordmark {
+  &:before {
+    content: $scicon-keysight-wordmark; 
+  }
+}
+.scicon-kreosus {
+  &:before {
+    content: $scicon-kreosus; 
+  }
+}
+.scicon-kreosus-wordmark {
+  &:before {
+    content: $scicon-kreosus-wordmark; 
+  }
+}
+.scicon-krisp {
+  &:before {
+    content: $scicon-krisp; 
+  }
+}
+.scicon-krisp-wordmark {
+  &:before {
+    content: $scicon-krisp-wordmark; 
+  }
+}
+.scicon-kurzgesagt {
+  &:before {
+    content: $scicon-kurzgesagt; 
+  }
+}
+.scicon-laravel {
+  &:before {
+    content: $scicon-laravel; 
+  }
+}
+.scicon-laravel-wordmark {
+  &:before {
+    content: $scicon-laravel-wordmark; 
+  }
+}
+.scicon-livescience {
+  &:before {
+    content: $scicon-livescience; 
+  }
+}
+.scicon-livescience-wordmark {
+  &:before {
+    content: $scicon-livescience-wordmark; 
+  }
+}
+.scicon-metacritic {
+  &:before {
+    content: $scicon-metacritic; 
+  }
+}
+.scicon-metacritic-wordmark {
+  &:before {
+    content: $scicon-metacritic-wordmark; 
+  }
+}
+.scicon-microsoft-365 {
+  &:before {
+    content: $scicon-microsoft-365; 
+  }
+}
+.scicon-msi {
+  &:before {
+    content: $scicon-msi; 
+  }
+}
+.scicon-mubi {
+  &:before {
+    content: $scicon-mubi; 
+  }
+}
+.scicon-mubi-wordmark {
+  &:before {
+    content: $scicon-mubi-wordmark; 
+  }
+}
+.scicon-netflix {
+  &:before {
+    content: $scicon-netflix; 
+  }
+}
+.scicon-netflix-wordmark {
+  &:before {
+    content: $scicon-netflix-wordmark; 
+  }
+}
+.scicon-netlify {
+  &:before {
+    content: $scicon-netlify; 
+  }
+}
+.scicon-netlify-alt {
+  &:before {
+    content: $scicon-netlify-alt; 
+  }
+}
+.scicon-netlify-wordmark {
+  &:before {
+    content: $scicon-netlify-wordmark; 
+  }
+}
+.scicon-neuralink {
+  &:before {
+    content: $scicon-neuralink; 
+  }
+}
+.scicon-neuralink-wordmark {
+  &:before {
+    content: $scicon-neuralink-wordmark; 
+  }
+}
+.scicon-nextjs {
+  &:before {
+    content: $scicon-nextjs; 
+  }
+}
+.scicon-nextjs-wordmark {
+  &:before {
+    content: $scicon-nextjs-wordmark; 
+  }
+}
+.scicon-nike {
+  &:before {
+    content: $scicon-nike; 
+  }
+}
+.scicon-notion {
+  &:before {
+    content: $scicon-notion; 
+  }
+}
+.scicon-nvidia {
+  &:before {
+    content: $scicon-nvidia; 
+  }
+}
+.scicon-nvidia-wordmark {
+  &:before {
+    content: $scicon-nvidia-wordmark; 
+  }
+}
+.scicon-oracle {
+  &:before {
+    content: $scicon-oracle; 
+  }
+}
+.scicon-philips {
+  &:before {
+    content: $scicon-philips; 
+  }
+}
+.scicon-playstation {
+  &:before {
+    content: $scicon-playstation; 
+  }
+}
+.scicon-popsci {
+  &:before {
+    content: $scicon-popsci; 
+  }
+}
+.scicon-postman {
+  &:before {
+    content: $scicon-postman; 
+  }
+}
+.scicon-postman-wordmark {
+  &:before {
+    content: $scicon-postman-wordmark; 
+  }
+}
+.scicon-prime-video {
+  &:before {
+    content: $scicon-prime-video; 
+  }
+}
+.scicon-prisma {
+  &:before {
+    content: $scicon-prisma; 
+  }
+}
+.scicon-prisma-wordmark {
+  &:before {
+    content: $scicon-prisma-wordmark; 
+  }
+}
+.scicon-raspberry-pi {
+  &:before {
+    content: $scicon-raspberry-pi; 
+  }
+}
+.scicon-rotten-tomatoes {
+  &:before {
+    content: $scicon-rotten-tomatoes; 
+  }
+}
+.scicon-rotten-tomatoes-wordmark {
+  &:before {
+    content: $scicon-rotten-tomatoes-wordmark; 
+  }
+}
+.scicon-squarespace {
+  &:before {
+    content: $scicon-squarespace; 
+  }
+}
+.scicon-squarespace-wordmark {
+  &:before {
+    content: $scicon-squarespace-wordmark; 
+  }
+}
+.scicon-teyit {
+  &:before {
+    content: $scicon-teyit; 
+  }
+}
+.scicon-teyit-alt {
+  &:before {
+    content: $scicon-teyit-alt; 
+  }
+}
+.scicon-tplink {
+  &:before {
+    content: $scicon-tplink; 
+  }
+}
+.scicon-tplink-wordmark {
+  &:before {
+    content: $scicon-tplink-wordmark; 
+  }
+}
+.scicon-ttec {
+  &:before {
+    content: $scicon-ttec; 
+  }
+}
+.scicon-ttec-wordmark {
+  &:before {
+    content: $scicon-ttec-wordmark; 
+  }
+}
+.scicon-typo3 {
+  &:before {
+    content: $scicon-typo3; 
+  }
+}
+.scicon-typo3-wordmark {
+  &:before {
+    content: $scicon-typo3-wordmark; 
+  }
+}
+.scicon-vercel {
+  &:before {
+    content: $scicon-vercel; 
+  }
+}
+.scicon-vercel-wordmark {
+  &:before {
+    content: $scicon-vercel-wordmark; 
+  }
+}
+.scicon-xai {
+  &:before {
+    content: $scicon-xai; 
+  }
+}
+.scicon-xbox {
+  &:before {
+    content: $scicon-xbox; 
+  }
+}
+.scicon-zapier {
+  &:before {
+    content: $scicon-zapier; 
+  }
+}
+.scicon-px {
+  &:before {
+    content: $scicon-px; 
+  }
+}
+.scicon-academia {
+  &:before {
+    content: $scicon-academia; 
+  }
+}
+.scicon-academia-wordmark {
+  &:before {
+    content: $scicon-academia-wordmark; 
+  }
+}
+.scicon-adidas {
+  &:before {
+    content: $scicon-adidas; 
+  }
+}
 .scicon-armut {
   &:before {
     content: $scicon-armut; 

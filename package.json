@@ -1,6 +1,6 @@
 {
   "name": "scicon",
-  "version": "1.1.0-alpha.1",
+  "version": "1.2.0-alpha.1",
   "description": "CSS Icon Pack by the Sci-Hook Organization",
   "keywords": [
     "scihook",
@@ -15,5 +15,7 @@
   "license": "MIT",
   "publisher": "Sci-Hook Organization",
   "homepage": "https://scicon.scihook.org",
-  "repository": {"url": "https://github.com/Sci-Hook/scicon-brands"}
+  "repository": {"url": "https://github.com/Sci-Hook/scicon-brands"},
+  "files": ["fonts", "ie7", "index.scss", "LICENSE", "package.json", "README.md", "style.css", "variables.scss"],
+  "bugs": {"url": "https://github.com/Sci-Hook/scicon/issues/new/choose", "email": "opensource@scihook.org"}
 }
