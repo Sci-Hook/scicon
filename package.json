@@ -1,6 +1,6 @@
 {
   "name": "scicon",
-  "version": "1.2.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "CSS Icon Pack by the Sci-Hook Organization",
   "keywords": [
     "scihook",
@@ -9,7 +9,10 @@
     "icon-pack",
     "web",
     "font",
-    "css-icons"
+    "css-icons",
+    "brand-icons",
+    "open-source",
+    "design"
   ],
   "author": "Çınar Civan",
   "license": "MIT",
