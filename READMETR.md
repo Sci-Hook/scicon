@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/Sci-Hook/scicon/main/.github/images/banners/scicon.png)
+
 Bu bilgilendirme yazısı, paket hakkında özet bilgi vermeyi hedeflemektedir. Dolayısıyla oldukça kısa ve detaysız bir şekilde yazılmıştır. Ancak bu bilgilendirme yazısını okuyan bir geliştirici paketi rahatlıkla kullanmaya başlayabilecektir. Lütfen daha detaylı bilgilendirme için resmî Scicon dokümanlarını [ziyaret ediniz](https://github.com/Sci-Hook/scicon/wiki).
 
 # Genel Bilgilendirme
