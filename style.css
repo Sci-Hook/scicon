@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Scicon';
-  src:  url('fonts/Scicon.eot?4ebtsl');
-  src:  url('fonts/Scicon.eot?4ebtsl#iefix') format('embedded-opentype'),
-    url('fonts/Scicon.ttf?4ebtsl') format('truetype'),
-    url('fonts/Scicon.woff?4ebtsl') format('woff'),
-    url('fonts/Scicon.svg?4ebtsl#Scicon') format('svg');
+  src:  url('https://cdn.jsdelivr.net/gh/Sci-Hook/scicon@074ca9ce63c5ac4b3ffd5c6a1277c97939536b10/fonts/Scicon.eot?4ebtsl');
+  src:  url('https://cdn.jsdelivr.net/gh/Sci-Hook/scicon@074ca9ce63c5ac4b3ffd5c6a1277c97939536b10/fonts/Scicon.eot?4ebtsl#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/Sci-Hook/scicon@074ca9ce63c5ac4b3ffd5c6a1277c97939536b10/fonts/Scicon.ttf?4ebtsl') format('truetype'),
+    url('https://cdn.jsdelivr.net/gh/Sci-Hook/scicon@074ca9ce63c5ac4b3ffd5c6a1277c97939536b10/fonts/Scicon.woff?4ebtsl') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/Sci-Hook/scicon@074ca9ce63c5ac4b3ffd5c6a1277c97939536b10/fonts/Scicon.svg?4ebtsl#Scicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
